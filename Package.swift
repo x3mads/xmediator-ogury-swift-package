@@ -8,7 +8,7 @@ let package = Package(
         .library(name: "XMediatorOgury", targets: ["XMediatorOguryTarget"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Ogury/ogury-sdk-spm.git", exact: "5.3.1"),
+        .package(url: "https://github.com/Ogury/ogury-sdk-spm.git", exact: "5.4.0"),
         .package(url: "https://github.com/x3mads/xmediator-swift-package.git", .upToNextMajor(from: "1.47.0")),
     ],
     targets: [
@@ -24,8 +24,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "XMediatorOgury",
-            url: "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorOgury/XMediatorOgury-5.3.1.0.zip",
-            checksum: "ed896fc43d2716f3077b1a0c8b1628c4888d91213e60b2878b9f9a83ae6ef88f"
+            url: "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorOgury/XMediatorOgury-5.4.0.0.zip",
+            checksum: "6319f53ce7c0a0daef99faecc992ba484b72aabcf6d60086763bf3f4c7602fa5"
         ),
     ]
 )

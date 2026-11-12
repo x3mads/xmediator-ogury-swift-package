@@ -18,7 +18,7 @@ To integrate `XMediatorOgury` into your Xcode project using Swift Package Manage
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/x3mads/xmediator-ogury-swift-package", exact: "5.3.100")
+    .package(url: "https://github.com/x3mads/xmediator-ogury-swift-package", exact: "5.4.000")
 ]
 ```
 
